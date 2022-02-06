@@ -1,4 +1,4 @@
-import TailSpin from 'react-loader-spinner';
+import { TailSpin } from 'react-loader-spinner';
 import styled from 'styled-components';
 import React from 'react';
 
@@ -9,7 +9,7 @@ const Spinner = styled.div`
 
 const Loader = () => (
   <Spinner>
-    <TailSpin type="TailSpin" color="#00BFFF" height={80} width={80} />
+    <TailSpin color="#00BFFF" height={80} width={80} />
   </Spinner>
 );
 
