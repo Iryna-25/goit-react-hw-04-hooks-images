@@ -14,6 +14,7 @@ export const SearchFormButton = styled.button`
   width: 48px;
   height: 48px;
   border: 0;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,6 +26,7 @@ export const SearchFormButton = styled.button`
     opacity: 1;
   }
 `;
+
 export const SearchFormButtonLabel = styled.span`
   position: absolute;
   width: 1px;
@@ -36,6 +38,7 @@ export const SearchFormButtonLabel = styled.span`
   clip-path: inset(50%);
   border: 0;
 `;
+
 export const SearchFormInput = styled.input`
   display: inline-block;
   width: 100%;

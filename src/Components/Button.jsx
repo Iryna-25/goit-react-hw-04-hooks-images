@@ -34,7 +34,7 @@ const Box = styled.div`
 const Button = ({ onClick }) => (
   <Box>
     <MoreButton type="button" onClick={onClick}>
-      Load more...
+      Load more
     </MoreButton>
   </Box>
 );
