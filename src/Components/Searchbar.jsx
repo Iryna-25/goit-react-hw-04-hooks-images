@@ -56,10 +56,6 @@ const Searchbar = ({ onSearch }) => {
   return (
     <Header>
       <Form onSubmit={handleSubmit}>
-        <SearchFormButton type="submit">
-          <SearchFormButtonLabel>Search</SearchFormButtonLabel>
-        </SearchFormButton>
-
         <SearchFormInput
           type="text"
           autoComplete="off"
@@ -69,6 +65,11 @@ const Searchbar = ({ onSearch }) => {
           value={query}
           onChange={handleSearchInput}
         />
+                
+        <SearchFormButton type="submit">
+          <SearchFormButtonLabel>Search</SearchFormButtonLabel>
+        </SearchFormButton>
+
       </Form>
     </Header>
   );
